@@ -1,0 +1,41 @@
+{
+  "name": "res-awesome",
+  "version": "1.0.0",
+  "description": "Node React Web Awesome for Res(Egg)",
+  "scripts": {
+    "dev": "res dev",
+    "debug": "res debug",
+    "start": "res start",
+    "print": "res print -n resolve",
+    "build": "res tsc && res build",
+    "size": "res build --size",
+    "tsc": "res tsc",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md  -s"
+  },
+  "dependencies": {
+    "@easy-team/res": "^1.0.0",
+    "antd": "^3.23.6",
+    "mobx": "^5.13.0",
+    "mobx-react": "^6.1.1"
+  },
+  "devDependencies": {
+    "@easy-team/res-cli": "^1.0.0"
+  },
+  "egg": {
+    "framework": "@easy-team/res",
+    "typescript": true
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "ci": {
+    "version": "8, 10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hubcarl/egg-react-typescript-boilerplate.git"
+  },
+  "author": "hubcarl@126.com",
+  "license": "MIT",
+  "homepage": "https://github.com/hubcarl/egg-react-typescript-boilerplate"
+}
