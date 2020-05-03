@@ -12,7 +12,7 @@ module.exports = {
     rules: [
       {
         less: {
-          include: [resolve('app/web'), resolve('node_modules')],
+          include: [resolve('../app/web'), resolve('../node_modules')],
           options: {
             javascriptEnabled: true,
             modifyVars: {
